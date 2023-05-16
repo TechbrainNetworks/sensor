@@ -20,7 +20,7 @@ router.get("/", (req, res) => {
     greeting = "Good evening!";
   }
 
-  res.send(greeting);
+  res.send(greeting + "💕😉");
 });
 
 router.post("/device-data", (req, res) => {
